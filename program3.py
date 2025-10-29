@@ -13,3 +13,11 @@ else:
 
 print(f"Temperature: {temperature}°C")
 print(f"Status: {status}")
+
+
+
+fahrenheit = (temperature * 9/5) + 32
+
+print(f"Temperature: {temperature}°C")
+print(f"Status: {status}")
+print(f"Temperature in Fahrenheit: {fahrenheit}°F")
